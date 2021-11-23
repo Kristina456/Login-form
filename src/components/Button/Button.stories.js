@@ -14,25 +14,25 @@ const Template = (args) => <Button {...args} />;
 
 export const Light = Template.bind({});
 Light.args = {
-  background: 'blue-light',
+  background: 'light',
   text: 'Button',
 };
 
 export const Medium = Template.bind({});
 Medium.args = {
-  background: 'blue-medium',
+  background: 'medium',
   text: 'Button',
 };
 
 export const Dark = Template.bind({});
 Dark.args = {
-  background: 'blue-dark',
+  background: 'dark',
   text: 'Button',
 };
 
 export const White = Template.bind({});
 White.args = {
-  background: 'btn-white',
+  background: 'white',
   text: 'Button',
 };
 
