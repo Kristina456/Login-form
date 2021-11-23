@@ -14,17 +14,17 @@
 }
 
 // Small buttons
-.btn-sml-light {
+.blue-light {
   background-color: $color-blue-light;
 }
-.btn-sml-medium {
+.blue-medium {
   background-color: $color-blue-medium;
 }
-.btn-small-dark {
+.blue-dark {
   background-color: $color-blue-dark;
 }
-.btn-sml-white {
+.btn-white {
   background-color: $color-white;
-  color: $color-blue-medium;
   border: 1px solid $color-blue-medium;
+  color: $color-blue-medium;
 }
