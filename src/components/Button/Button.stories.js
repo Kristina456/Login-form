@@ -10,7 +10,7 @@ export default {
       options: ['light', 'medium', 'dark', 'white'],
       control: { type: 'select' },
     },
-    padding: {
+    size: {
       options: ['large', 'small'],
       control: { type: 'radio' },
     },
