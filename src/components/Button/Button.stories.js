@@ -6,7 +6,14 @@ export default {
   component: Button,
   text: 'Button',
   argTypes: {
-    backgroundColor: { control: 'background' },
+    variant: {
+      options: ['light', 'medium', 'dark', 'white'],
+      control: { type: 'select' },
+    },
+    padding: {
+      options: ['large', 'small'],
+      control: { type: 'radio' },
+    },
   },
 };
 
@@ -14,25 +21,25 @@ const Template = (args) => <Button {...args} />;
 
 export const Light = Template.bind({});
 Light.args = {
-  background: 'light',
+  variant: 'light',
   text: 'Button',
 };
 
 export const Medium = Template.bind({});
 Medium.args = {
-  background: 'medium',
+  variant: 'medium',
   text: 'Button',
 };
 
 export const Dark = Template.bind({});
 Dark.args = {
-  background: 'dark',
+  variant: 'dark',
   text: 'Button',
 };
 
 export const White = Template.bind({});
 White.args = {
-  background: 'white',
+  variant: 'white',
   text: 'Button',
 };
 

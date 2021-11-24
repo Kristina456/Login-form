@@ -2,9 +2,9 @@ import React from 'react';
 import './Button.scss';
 
 function Button(props) {
-  const { background = 'primary', text, ...rest } = props;
+  const { variant, text, padding = 'small', ...rest } = props;
   return (
-    <button className={`button ${background}`} {...rest}>
+    <button className={`button ${variant} ${padding}`} {...rest}>
       {text}
     </button>
   );
