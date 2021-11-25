@@ -1,0 +1,37 @@
+// for testing purposes only
+@import '../../scssStyles/abstracts/variables';
+@import '../../scssStyles/base/typography';
+
+.button {
+  border: none;
+  color: $color-white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: $font-size-medium;
+  cursor: pointer;
+}
+
+// Small buttons
+.light {
+  background-color: $color-blue-light;
+}
+.medium {
+  background-color: $color-blue-medium;
+}
+.dark {
+  background-color: $color-blue-dark;
+}
+.white {
+  background-color: $color-white;
+  border: 1px solid $color-blue-medium;
+  color: $color-blue-medium;
+}
+
+.large {
+  padding: 1.2rem 11.8rem;
+}
+
+.small {
+  padding: 1.2rem 2.4rem;
+}
