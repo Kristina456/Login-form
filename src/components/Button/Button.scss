@@ -1,31 +1,27 @@
-// for testing purposes only
-@import '../../scssStyles/abstracts/variables';
-@import '../../scssStyles/base/typography';
-
 .button {
   border: none;
-  color: $color-white;
+  color: var(--var-color-white);
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: $font-size-medium;
+  font-size: var(--var-font-size-medium);
   cursor: pointer;
 }
 
 // Small buttons
 .light {
-  background-color: $color-blue-light;
+  background-color: var(--var-color-blue-light);
 }
 .medium {
-  background-color: $color-blue-medium;
+  background-color: var(--var-color-blue-medium);
 }
 .dark {
-  background-color: $color-blue-dark;
+  background-color: var(--var-color-blue-dark);
 }
 .white {
-  background-color: $color-white;
-  border: 1px solid $color-blue-medium;
-  color: $color-blue-medium;
+  background-color: var(--var-color-white);
+  border: 1px solid var(--var-color-blue-medium);
+  color: var(--var-color-blue-medium);
 }
 
 .large {

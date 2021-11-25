@@ -5,7 +5,11 @@ import PropTypes from 'prop-types';
 function Button(props) {
   const { variant, text, size = 'small', ...rest } = props;
   return (
-    <button className={`button ${variant} ${size}`} {...rest}>
+    <button
+      className={`button ${variant} ${size}`}
+      {...rest}
+      style={{ backgroundColor: { variant } }}
+    >
       {text}
     </button>
   );
