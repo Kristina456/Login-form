@@ -11,6 +11,7 @@ This Login form is a project made for practice. The purpose is to create a proje
 - Prettier 2.4.1
 - Storybook/react 6.3.12
 - Node-sass 6.0.1
+- craco 6.4.1
 
 <br>
 
