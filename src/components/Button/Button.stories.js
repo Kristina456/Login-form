@@ -4,7 +4,7 @@ import Button from './Button';
 export default {
   title: 'Project/Button',
   component: Button,
-  text: 'Button',
+  children: 'Button',
   argTypes: {
     variant: {
       options: ['light', 'medium', 'dark', 'white'],
@@ -22,25 +22,25 @@ const Template = (args) => <Button {...args} />;
 export const Light = Template.bind({});
 Light.args = {
   variant: 'light',
-  text: 'Button',
+  children: 'Button',
 };
 
 export const Medium = Template.bind({});
 Medium.args = {
   variant: 'medium',
-  text: 'Button',
+  children: 'Button',
 };
 
 export const Dark = Template.bind({});
 Dark.args = {
   variant: 'dark',
-  text: 'Button',
+  children: 'Button',
 };
 
 export const White = Template.bind({});
 White.args = {
   variant: 'white',
-  text: 'Button',
+  children: 'Button',
 };
 
 export const Other = Template.bind({});
