@@ -1,27 +1,27 @@
 .button {
   border: none;
-  color: var(--var-color-white);
+  color: $color-white;
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: var(--var-font-size-medium);
+  font-size: $font-size-medium;
   cursor: pointer;
 }
 
 // Small buttons
 .light {
-  background-color: var(--var-color-blue-light);
+  background-color: $color-blue-light;
 }
 .medium {
-  background-color: var(--var-color-blue-medium);
+  background-color: $color-blue-medium;
 }
 .dark {
-  background-color: var(--var-color-blue-dark);
+  background-color: $color-blue-dark;
 }
 .white {
-  background-color: var(--var-color-white);
-  border: 1px solid var(--var-color-blue-medium);
-  color: var(--var-color-blue-medium);
+  background-color: $color-white;
+  border: 1px solid $color-blue-medium;
+  color: $color-blue-medium;
 }
 
 .large {

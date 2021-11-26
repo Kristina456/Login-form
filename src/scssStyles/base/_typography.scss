@@ -1,22 +1,20 @@
 // Import coustom typography from font providers
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
-:root {
-  --var-font-family: 'Roboto', sans-serif;
+$font-family: 'Roboto', sans-serif;
 
-  //FONT SIZE
+//FONT SIZE
 
-  --var-font-size-sml: 1.2rem;
-  --var-font-size-medium: 1.6rem;
-  --var-font-size-large: 2rem;
+$font-size-sml: 1.2rem;
+$font-size-medium: 1.6rem;
+$font-size-large: 2rem;
 
-  //FONT WEIGHT
+//FONT WEIGHT
 
-  --var-font-wgt-normal: 400;
-  --var-font-wgt-bold: 700;
+$font-wgt-normal: 400;
+$font-wgt-bold: 700;
 
-  //LINE HEIGHT
-  --var-line-higt-sml: 1.8rem;
-  --var-line-high-medium: 2.4rem;
-  --var-line-high-large: 3rem;
-}
+//LINE HEIGHT
+$line-higt-sml: 1.8rem;
+$line-high-medium: 2.4rem;
+$line-high-large: 3rem;

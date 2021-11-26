@@ -3,11 +3,16 @@ module.exports = {
   addons: [
     '@storybook/addon-links',
     '@storybook/addon-essentials',
-    '@storybook/preset-scss',
-    /*"@storybook/preset-create-react-app"*/
+    'storybook-preset-craco',
+    /* "@storybook/preset-create-react-app", */
   ],
-  core: {
-    builder: 'webpack5',
-  },
-  typescript: { reactDocgen: false },
+  addons: [
+    'storybook-preset-craco',
+    {
+      name: '@storybook/addon-docs',
+      options: {
+        configureJSX: true,
+      },
+    },
+  ],
 };
