@@ -41,7 +41,7 @@ $ npm run storybook
 ### Run test
 
 ```
-$ npm yarn test
+$ npm run test
 ```
 
 <br>
