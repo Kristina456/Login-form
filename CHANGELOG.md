@@ -16,7 +16,6 @@
 ### Added:
 
 - Comment out the CRA preset
-- Install the SCSS preset
 
 ### Changes:
 

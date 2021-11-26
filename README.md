@@ -35,3 +35,11 @@ Starts Storybook in development mode
 ```
 $ npm run storybook
 ```
+
+<br>
+
+### Run test
+
+```
+$ npm yarn test
+```
