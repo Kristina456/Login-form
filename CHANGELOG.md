@@ -1,3 +1,14 @@
+## [0.0.3] - 26.11.2021
+
+## Changes
+
+- update changelog
+- update readme
+
+### Added
+
+- jest
+
 ## [0.0.2] - 25.11.2021.
 
 ### Added:
