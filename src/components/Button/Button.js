@@ -4,9 +4,9 @@ import PropTypes from 'prop-types';
 
 function Button(props) {
   const { variant, children, size = 'small' } = props;
+
   return (
     <button
-      role="button"
       type="button"
       value="button"
       className={`button ${variant} ${size}`}
