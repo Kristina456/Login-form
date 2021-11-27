@@ -4,7 +4,6 @@ module.exports = {
     '@storybook/addon-links',
     '@storybook/addon-essentials',
     'storybook-preset-craco',
-    /* "@storybook/preset-create-react-app", */
     {
       name: '@storybook/addon-docs',
       options: {
