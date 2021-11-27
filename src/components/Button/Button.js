@@ -1,6 +1,7 @@
 import React from 'react';
 import './Button.scss';
 import PropTypes from 'prop-types';
+import classNames from 'classnames';
 
 function Button(props) {
   const { variant, children, size = 'small' } = props;
@@ -9,7 +10,10 @@ function Button(props) {
     <button
       type="button"
       value="button"
-      className={`button ${variant} ${size}`}
+      className={`button ${classNames(
+        { [variant]: variant },
+        { [size]: size }
+      )}`}
     >
       {children}
     </button>
