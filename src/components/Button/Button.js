@@ -23,7 +23,7 @@ function Button(props) {
 export default Button;
 
 Button.propTypes = {
-  variant: PropTypes.string,
+  variant: PropTypes.oneOf(['light', 'medium', 'dark', 'white']),
   children: PropTypes.oneOfType([PropTypes.node, PropTypes.string]),
   size: PropTypes.oneOf(['small', 'large']),
 };
