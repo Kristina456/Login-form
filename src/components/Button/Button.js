@@ -20,7 +20,7 @@ function Button(props) {
   );
 }
 
-export default Button;
+export { Button };
 
 Button.propTypes = {
   variant: PropTypes.oneOf(['light', 'medium', 'dark', 'white']),
