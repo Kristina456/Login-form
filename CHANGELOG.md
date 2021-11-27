@@ -1,4 +1,16 @@
-## [0.0.3] - 26.11.2021
+## [0.0.4] - 27.11.2021.
+
+## Added:
+
+- install classnames
+
+### Changes:
+
+- change configuration of storybook
+
+<br>
+
+## [0.0.3] - 26.11.2021.
 
 ## Changes
 
@@ -8,6 +20,8 @@
 ### Added
 
 - jest
+
+<br>
 
 ## [0.0.2] - 25.11.2021.
 

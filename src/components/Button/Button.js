@@ -25,5 +25,5 @@ export default Button;
 Button.propTypes = {
   variant: PropTypes.string,
   children: PropTypes.oneOfType([PropTypes.node, PropTypes.string]),
-  size: PropTypes.oneOf(['small', 'medium']),
+  size: PropTypes.oneOf(['small', 'large']),
 };

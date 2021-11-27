@@ -14,6 +14,7 @@ This project uses a Storybook tool for UI development. If you haven't used it be
 - Storybook/react 6.3.12
 - craco 6.4.1
 - jest 26.6.0
+- classnames 2.3.1
 
 <br>
 
