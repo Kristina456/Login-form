@@ -1,10 +1,11 @@
 import './App.scss';
-import Button from './components/Button';
+import { Button } from './components/Button';
 
 function App() {
   return (
     <div>
       <div className="App">Hello, World!</div>
+      <Button size="large">Submit</Button>
     </div>
   );
 }

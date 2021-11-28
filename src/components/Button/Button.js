@@ -1,25 +1,23 @@
 import React from 'react';
 import './Button.scss';
 import PropTypes from 'prop-types';
+import classNames from 'classnames';
 
 function Button(props) {
   const { variant, children, size = 'small' } = props;
+  const className = classNames('button', variant, size);
+
   return (
-    <button
-      role="button"
-      type="button"
-      value="button"
-      className={`button ${variant} ${size}`}
-    >
+    <button type="button" value="button" className={className}>
       {children}
     </button>
   );
 }
 
-export default Button;
+export { Button };
 
 Button.propTypes = {
-  variant: PropTypes.string,
+  variant: PropTypes.oneOf(['light', 'medium', 'dark', 'white']),
   children: PropTypes.oneOfType([PropTypes.node, PropTypes.string]),
-  size: PropTypes.oneOf(['small', 'medium']),
+  size: PropTypes.oneOf(['small', 'large']),
 };
