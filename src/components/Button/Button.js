@@ -5,16 +5,10 @@ import classNames from 'classnames';
 
 function Button(props) {
   const { variant, children, size = 'small' } = props;
+  const className = classNames('button', variant, size);
 
   return (
-    <button
-      type="button"
-      value="button"
-      className={`button ${classNames(
-        { [variant]: variant },
-        { [size]: size }
-      )}`}
-    >
+    <button type="button" value="button" className={className}>
       {children}
     </button>
   );
